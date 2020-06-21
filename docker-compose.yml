@@ -1,0 +1,11 @@
+---
+version: "3"
+
+services:
+  swift:
+    image: swift
+    container_name: swift
+    volumes:
+      - ~/Documents/Swift/:/Swift/
+    working_dir: /Swift/
+    entrypoint: ["bash"]
