@@ -6,6 +6,6 @@ services:
     image: swift
     container_name: swift
     volumes:
-      - ~/Documents/Swift/:/Swift/
+      - ~/Documents/Linux/:/Swift/
     working_dir: /Swift/
     entrypoint: ["bash"]
